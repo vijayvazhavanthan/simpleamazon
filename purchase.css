@@ -139,4 +139,5 @@ button:hover{
 }
 .flex{
     display:grid;
+    grid-template-columns:1fr width:300px;
 }
