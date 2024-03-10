@@ -138,5 +138,5 @@ button:hover{
     width:300px;
 }
 .flex{
-    display:flex;
+    display:grid;
 }
