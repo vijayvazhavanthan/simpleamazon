@@ -1,0 +1,142 @@
+body{
+    margin-top:130px;
+    padding:22px;
+    height:1000px;
+    padding-right:60px;
+    padding-left:60px;
+}
+.logo{
+    width:100px;
+    cursor: pointer;
+}
+.quantity-of-purchase,.numbers{
+    font-family:arial;
+    font-size:23px;
+    font-weight:bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.numbers{
+    color:rgb(11, 75, 89);
+}
+.header-in-checkout{
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: white;
+}
+.lock{
+    flex:1; display:flex; align-items: center; justify-content: end;
+    margin-right:60px;
+}
+.logo{
+    flex:1;
+    margin-left:30px;
+}
+.review{
+    font-family:arial;
+    font-size:21px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+.delivery{
+    font-family:arial;
+    font-size:18px;
+    color:rgb(4, 91, 4);
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.images{
+    width:100px;
+}
+.product-name,.product-price,.product-quantity,.delivery-date{
+    font-family:arial;
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+.delivery-date{
+    font-size: 15px;
+    color:green;
+}
+.delivery-shipping{
+    margin-left:26px;
+    color:rgba(128, 128, 128, 0.76);    
+}
+.product-price{
+    color:brown;
+}
+.product-quantity{
+    font-size:16px;
+    font-weight:normal;
+}
+button{
+    background-color: white;
+    color:rgb(17, 17, 173);
+    border:none;
+    font-family:arial;
+    font-size:14px;
+    cursor: pointer;
+}
+button:hover{
+    color:brown;
+}
+.detail-checkout{
+    display:flex;
+}
+.order,.order-summary{
+    font-family:arial;
+    font-size:14px;
+    color:rgb(42, 42, 42);
+    margin-bottom:20px;
+}
+.order-summary{
+    font-size:16px;
+    font-weight: bold;
+}
+.answer{
+    font-family:arial;
+    font-size:18px;
+    font-weight:bold;
+    color:brown;
+}
+.paypal{
+    font-family:arial;
+    font-size:16px;
+
+}
+.place-order{
+    margin-top:20px;
+    background-color: rgb(255, 217, 0);
+    color:black;
+    padding:15px;
+    border-radius:10px;
+    font-family: arial;
+    font-size:12px;
+    padding-left:90px;
+    padding-right:90px;
+}
+/*.order-summary,.paypal,.place-order{
+    margin-left:4px;
+}*/
+.order-box{
+    border-width:1px;
+    border-style: solid;
+    border-color:lightgray;
+    border-radius:6px;
+    /*padding-left:30px;*/
+    padding-top:20px;
+    padding-bottom:20px;
+    
+    width:300px;
+}
+.flex{
+    display:flex;
+}
